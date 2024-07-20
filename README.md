@@ -67,3 +67,52 @@ We are analyzing a case study from FWD Singapore, a practical example of a trave
 By integrating these financial parameters into our dataset, we aim to evaluate the business impact of machine learning applications in the travel insurance industry. This study seeks to understand how these parameters influence predictive modeling and strategic decision-making, enhancing business outcomes and customer satisfaction.
 
 ![FWD](https://miro.medium.com/v2/resize:fit:640/format:webp/1*cjmkK7Xb6HDPSCsvOuQAig.jpeg)
+
+COST ANALYSIS
+
+## Financial Analysis: Impact of Machine Learning on Insurance Claims
+
+### Premium and Coverage Details
+- **Premium**: S$283.55
+- **Coverage**: S$15,000
+- **Campaign Cost**: S$15 per insured
+
+### Without Machine Learning
+
+#### Total Premium Income
+- Formula: `Premium x All Insured`
+- Calculation: `283.55 x 7804 = S$2,212,824.2`
+
+#### Total Claim Cost
+- Formula: `Claim Insured x Coverage`
+- Calculation: `133 x 15000 = S$1,995,000`
+
+#### Total Promo Cost
+- Formula: `All Insured x Campaign`
+- Calculation: `7804 x 15 = S$117,060`
+
+#### Total Profit
+- Formula: `Total Premium Income - Total Claim Cost - Total Promo Cost`
+- Calculation: `2,212,824.2 - 1,995,000 - 117,060 = S$100,764.2`
+
+### With Machine Learning
+
+#### Total Premium Income
+- Formula: `Premium x (True Negatives + False Negatives)`
+- Calculation: `283.55 x (2162 + 7) = S$615,019.95`
+
+#### Total Claim Cost
+- Formula: `Claim Insured x Coverage`
+- Calculation: `7 x 15000 = S$105,000`
+
+#### Total Promo Cost
+- Formula: `All Insured x Campaign`
+- Calculation: `7804 x 15 = S$117,060`
+
+#### Total Profit
+- Formula: `Total Premium Income - Total Claim Cost - Total Promo Cost`
+- Calculation: `615,019.95 - 105,000 - 117,060 = S$392,959.95`
+
+### Summary
+By using machine learning, the profit increases from S$100,764.2 to S$392,959.95. This demonstrates a significant improvement in profitability, mainly due to the model's ability to minimize false negatives and thus undetected claims.
+
