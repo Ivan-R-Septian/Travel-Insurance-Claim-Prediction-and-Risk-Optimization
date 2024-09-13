@@ -2,6 +2,9 @@
 **Ivan Robi Septian**
 
 ____________________________________________________________________________________________________________________________
+## Project Overview
+Built final machine learning model XGBoost to predict claims in a highly imbalanced dataset (98.5:1.5). Achieved 95% recall and utilized explainable AI to identify key factors influencing claims. This resulted in profit growth from S$100,764.20 to S$392,959.95 by optimizing resource allocation and enhancing customer satisfaction through improved insurance products.
+
 ## Introduction to Travel Insurance
 
 Travel insurance is a type of insurance that provides protection during both domestic and international trips. Several companies offer travel insurance services, including AXA, Prudential, Chubb, Generali, and Sompo, among others. Many travelers consider travel insurance an essential companion due to its benefits, which protect policyholders from various risks that may occur during their journey. These benefits include:
